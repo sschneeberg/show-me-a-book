@@ -1,3 +1,95 @@
 body {
-    background-image: url('');
+    background-image: url('https://www.aam-us.org/wp-content/uploads/2018/01/Photo-by-Valentin-on-Unsplash.jpg');
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: whitesmoke;
+}
+
+header {
+    font-family: 'Fredericka the Great', cursive;
+    background-size: 100vh;
+    background-color: rosybrown;
+    padding: 0.5rem;
+    margin: 0;
+    height: 7em;
+}
+
+p {
+    font-family: 'Bad Script', cursive;
+    margin-top: -0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85vh;
+}
+
+form {
+    margin: 3rem;
+}
+
+div.searchBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 30vw;
+    background-color: rosybrown;
+    border-radius: 6px;
+    ;
+}
+
+input#searchBar {
+    margin: 0.5rem 0 1.5rem 0;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+label {
+    margin: 1rem 0 0 1rem;
+    align-self: flex-start;
+}
+
+button {
+    border: 1px solid white;
+    background: rgb(247, 197, 197, 0.5);
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.displayContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 70vw;
+    background: rosybrown;
+    border-radius: 6px;
+}
+
+.displayContainer img {
+    max-height: 70%;
+}
+
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+@media (max-width: 600px) {
+    div.searchBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 6rem;
+        width: 50vw;
+        background-color: rosybrown;
+    }
 }
